@@ -1,0 +1,104 @@
+/* xs */
+h1 {
+    color: red;
+}
+
+/* SM */
+@media (min-width:576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* MD */
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* LG */
+@media (min-width: 992px) {
+    h1 {
+        color: purple;
+    }
+}
+
+/* XL  */
+@media (min-width: 1200px) {
+    h1 {
+        color: goldenrod;
+    }
+}
+
+/* XXL */
+@media (min-width: 1400px) {
+    h1 {
+        color: teal;
+    }
+}
+
+.btn-primary{
+    background-color: red;
+} 
+
+.conatiner {
+    background-color: #999;
+}
+.conatiner-fluid {
+    background-color: #777;
+}
+
+/* container breakpoint */
+
+    .container-sm {
+        margin-bottom: 30px;
+        border: 2px solid blue;
+    }
+
+    .container-md {
+        margin-bottom: 30px;
+        border:  2px solid rgb(220, 70, 20);
+    }
+
+    .container-lg {
+        margin-bottom: 30px;
+        border:  2px solid chocolate; 
+    }
+
+    /* grid */
+
+    .container {
+        border: 5px dotted blue;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+
+    .row {
+        border: 5px solid purple;
+        height: 100px;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    .col, .col-4, .col-2, .col-1, .col-11, .col-6, .col-3 {
+        border: 2px dashed red;
+        height: 100%;
+        margin: 0;
+    }
+
+    /* alinhamento vertical */
+
+    .vertical {
+        height: 250px;
+        border-color: coral;
+    }
+
+    .vertical .row {
+        height: 100%;
+    }
+
+    .vertical .col-6, .vertical .col-3, .vertical .col-4 {
+        height: 50px;
+    }
+
